@@ -22,6 +22,8 @@ def print_query(view_name:str):
     print(tabulate(results,headings))
     db.close()
 
+
+
 menu_choice =''
 while menu_choice !='z':
     menu_choice = input('Welcome to the Music database\n\b'
